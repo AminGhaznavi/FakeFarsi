@@ -53,7 +53,9 @@ ff = FakeFarsi()
 Mahan Rahmani (توسعه‌دهنده و ایده‌پرداز اولیه پروژه)
 
 Amin Ghaznavi (توسعه‌دهنده ابزار CLI، هوشمندسازی متدها و بهینه‌سازی معماری پکیج)
+
 ---
 ## لینک‌های مفید:
 https://www.google.com/search?q=https://pypi.org/project/fakefarsi/
+
 https://github.com/mhnrhmni/FakeFarsi
