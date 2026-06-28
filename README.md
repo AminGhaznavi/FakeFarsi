@@ -38,31 +38,22 @@
 ```bash
 pip install fakefarsi
 ```
-💻 نحوه استفاده
-۱. استفاده به عنوان کتابخانه در کد پایتون
+💻### استفاده به عنوان کتابخانه در کد پایتون
+
+برای شروع کار با پکیج، ابتدا کلاس را فراخوانی کرده و یک نمونه از آن بسازید:
+
+```python
 from fakefarsi import FakeFarsi
 
 ff = FakeFarsi()
+```
+👥 ## توسعه‌دهندگان:
+---
 
-print(ff.fake_name())        # نام کوچک جعلی
-print(ff.fake_last_name())   # نام خانوادگی جعلی
-print(ff.fake_age())         # سن جعلی
-print(ff.fake_phone())       # شماره تلفن جعلی
-
-# ساخت ایمیل به صورت هوشمند و بدون نیاز به پاس دادن اجباری ورودی
-print(ff.fake_email())       
-
-# تولید پروفایل کامل متصل به هم
-print(ff.generate_fake_profile())
-۲. استفاده به عنوان ابزار ترمینال (CLI)
-پس از نصب، کافی است در خط فرمان خود دستور زیر را تایپ کنید تا منوی تعاملی برنامه برای شما باز شود:
-fakefarsi
-
-👥 توسعه‌دهندگان
 Mahan Rahmani (توسعه‌دهنده و ایده‌پرداز اولیه پروژه)
 
 Amin Ghaznavi (توسعه‌دهنده ابزار CLI، هوشمندسازی متدها و بهینه‌سازی معماری پکیج)
-لینک‌های مفید
-PyPI Page
-
-GitHub Repository
+---
+## لینک‌های مفید:
+https://www.google.com/search?q=https://pypi.org/project/fakefarsi/
+https://github.com/mhnrhmni/FakeFarsi
